@@ -11,7 +11,7 @@ public abstract class ClasePadre {
 
     public void Operaciones(){
 
-        int bandero =0;
+        int valor =0;
         int seleccion=0;
 
 
@@ -29,7 +29,7 @@ public abstract class ClasePadre {
 
                 if (seleccion >=1 && seleccion<=4){
 
-                    bandero=1;
+                    valor=1;
                 } else
                 {
                     System.out.println("--------------------------------------------------------**");
@@ -38,7 +38,7 @@ public abstract class ClasePadre {
                 }
 
 
-            }while (bandero==0);
+            }while (valor==0);
 
             if (seleccion ==1){
 
@@ -61,10 +61,10 @@ public abstract class ClasePadre {
             } else if (seleccion ==4){
 
                 System.out.println("Bye bye");
-                bandero=2;
+                valor=2;
 
             }
-        } while (bandero != 2);
+        } while (valor != 2);
 
 
 
